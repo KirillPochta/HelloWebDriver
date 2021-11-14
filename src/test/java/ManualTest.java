@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 public class ManualTest {
-    @Test
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver1\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
